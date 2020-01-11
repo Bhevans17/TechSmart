@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+}
+
+/***** HEADER *****/
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+nav a:nth-child(1) {
+  font-weight: bold;
+  text-decoration: none;
+  color: #7510f7;
+  padding: 5px 15px;
+}
+
+.logo-span {
+  color: #cccccc;
+}
+
+nav a:nth-child(2) {
+  text-decoration: none;
+  color: #7510f7;
+  border: 2px solid #7510f7;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+/***** MAIN *****/
+main {
+  text-align: center;
+  padding: 50px 25px;
+}
+
+main h1 {
+  font-weight: bold;
+}
+
+#about-us-wrapper {
+  background-color: #7510f7;
+  color: white;
+  text-align: center;
+  padding: 50px 25px;
+}
+/***** CARDS *****/
+#card-wrapper {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  margin: 20px;
+  padding: 40px 20px;
+  border-radius: 25px;
+}
+
+/***** OUR WORK *****/
+#our-work-wrapper {
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#our-work-button {
+  text-decoration: none;
+  color: #7510f7;
+  border: 2px solid #7510f7;
+  padding: 5px 15px;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+/***** COLLABORATIONS WRAPPER *****/
+#collab-wrapper {
+  text-align: center;
+}
+
+/***** PRODUCTS *****/
+#products-wrapper {
+  text-align: center;
+  background-color: #7510f7;
+  color: white;
+  padding: 60px 20px;
+}
+
+.product-card {
+  border: 1px solid lightgrey;
+  margin: 20px;
+  padding: 40px 20px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+}
+
+.product-card a {
+  color: #7510f7;
+}
+
+/***** TESTIMONIALS *****/
+#testimonials-wrapper {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/***** FOOTER *****/
+footer {
+  background-color: #7510f7;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer-card {
+  background-color: #141c3a;
+  color: white;
+  padding: 40px 20px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+#footer-card a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid #7510f7;
+  padding: 5px 15px;
+  border-radius: 25px;
+  margin-top: 25px;
+}
