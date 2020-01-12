@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Public Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /***** HEADER *****/
@@ -34,6 +34,13 @@ nav a:nth-child(2) {
   border: 2px solid #7510f7;
   padding: 5px 15px;
   border-radius: 25px;
+  transition: 0.3s;
+}
+
+nav a:nth-child(2):hover {
+  color: white;
+  background-color: #7510f7;
+  transition: 0.3s;
 }
 
 /***** MAIN *****/
@@ -44,17 +51,44 @@ main {
 
 main h1 {
   font-weight: bold;
+  margin: 0;
 }
 
+main p {
+  margin: 0;
+  padding-bottom: 8vh;
+}
+/***** ABOUT US *****/
 #about-us-wrapper {
   background-color: #7510f7;
   color: white;
   text-align: center;
   padding: 50px 25px;
 }
+
+#about-us-wrapper h3 {
+  margin: 0;
+}
+
+#about-us-wrapper p {
+  margin: 0;
+}
 /***** CARDS *****/
 #card-wrapper {
   text-align: center;
+}
+
+#card-wrapper h5 {
+  margin: 0;
+}
+
+#card-wrapper h6 {
+  color: #7510f7;
+  margin: 0;
+}
+
+#card-wrapper p {
+  margin: 0;
 }
 
 .card {
