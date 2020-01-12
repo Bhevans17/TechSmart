@@ -52,11 +52,12 @@ main {
 main h1 {
   font-weight: bold;
   margin: 0;
+  padding-bottom: 10px;
 }
 
 main p {
   margin: 0;
-  padding-bottom: 8vh;
+  padding-bottom: 40px;
 }
 /***** ABOUT US *****/
 #about-us-wrapper {
@@ -68,6 +69,7 @@ main p {
 
 #about-us-wrapper h3 {
   margin: 0;
+  padding-bottom: 15px;
 }
 
 #about-us-wrapper p {
@@ -93,8 +95,8 @@ main p {
 
 .card {
   border: 1px solid lightgrey;
-  margin: 20px;
-  padding: 40px 20px;
+  margin: 20px 40px;
+  padding: 80px 40px;
   border-radius: 25px;
 }
 
