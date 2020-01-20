@@ -63,7 +63,7 @@ main p {
 #about-us-wrapper {
   background-color: #7510f7;
   color: white;
-  padding: 25px 25px;
+  padding: 25px;
   text-align: center;
 }
 
@@ -83,11 +83,11 @@ main p {
   font-size: 8vw;
 }
 
-#card-wrapper h5 {
+#card-wrapper h3 {
   margin: 0;
 }
 
-#card-wrapper h6 {
+#card-wrapper h4 {
   color: #7510f7;
   margin: 0;
 }
@@ -98,15 +98,27 @@ main p {
 
 .card {
   border: 1px solid lightgrey;
-  margin: 20px 40px;
   padding: 40px;
 }
 
 /***** OUR WORK *****/
 #our-work-wrapper {
   text-align: center;
-  padding: 60px 20px;
   border-bottom: 1px solid lightgrey;
+  padding: 25px;
+}
+
+#our-work-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work {
+  width: 50%;
+}
+
+.work img {
+  width: 50%;
 }
 
 #our-work-button {
@@ -115,7 +127,7 @@ main p {
   border: 2px solid #7510f7;
   padding: 5px 15px;
   border-radius: 25px;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 /***** COLLABORATIONS WRAPPER *****/
