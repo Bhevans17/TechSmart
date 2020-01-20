@@ -111,6 +111,7 @@ main p {
 #our-work-img-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work {
@@ -128,6 +129,7 @@ main p {
   padding: 5px 15px;
   border-radius: 25px;
   margin-top: 50px;
+  display: block;
 }
 
 /***** COLLABORATIONS WRAPPER *****/
@@ -140,7 +142,7 @@ main p {
   text-align: center;
   background-color: #7510f7;
   color: white;
-  padding: 60px 20px;
+  padding: 25px;
 }
 
 .product-card {
@@ -159,14 +161,14 @@ main p {
 /***** TESTIMONIALS *****/
 #testimonials-wrapper {
   text-align: center;
-  padding: 60px 20px;
+  padding: 25px;
 }
 
 /***** FOOTER *****/
 footer {
   background-color: #7510f7;
   text-align: center;
-  padding: 60px 20px;
+  padding: 25px;
   color: white;
 }
 
