@@ -164,6 +164,10 @@ main p {
   padding: 25px;
 }
 
+#testimonials-wrapper h3 {
+  margin: 0;
+}
+
 /***** FOOTER *****/
 footer {
   background-color: #7510f7;
