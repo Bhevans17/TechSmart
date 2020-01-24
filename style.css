@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
 }
 
 /***** HEADER *****/
@@ -52,6 +53,7 @@ main {
 
 main h1 {
   font-weight: bold;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -80,7 +82,7 @@ main p {
 }
 
 #card-wrapper i {
-  font-size: 8vw;
+  font-size: 2em;
 }
 
 #card-wrapper h3 {
@@ -101,42 +103,6 @@ main p {
   padding: 40px;
 }
 
-/***** OUR WORK *****/
-#our-work-wrapper {
-  text-align: center;
-  border-bottom: 1px solid lightgrey;
-  padding: 25px;
-}
-
-#our-work-img-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.work {
-  width: 50%;
-}
-
-.work img {
-  width: 50%;
-}
-
-#our-work-button {
-  text-decoration: none;
-  color: #7510f7;
-  border: 2px solid #7510f7;
-  padding: 5px 15px;
-  border-radius: 25px;
-  margin-top: 50px;
-  display: block;
-}
-
-/***** COLLABORATIONS WRAPPER *****/
-#collab-wrapper {
-  text-align: center;
-}
-
 /***** PRODUCTS *****/
 #products-wrapper {
   text-align: center;
@@ -154,6 +120,14 @@ main p {
   color: black;
 }
 
+.products-wrapper h2 {
+  padding-bottom: 5px;
+}
+
+.products-wrapper p {
+  padding-bottom: 5px;
+}
+
 .product-card a {
   color: #7510f7;
 }
@@ -162,6 +136,11 @@ main p {
 #testimonials-wrapper {
   text-align: center;
   padding: 25px;
+}
+
+#testimonials-wrapper img {
+  width: 100px;
+  height: 100px;
 }
 
 #testimonials-wrapper h3 {
@@ -189,6 +168,14 @@ footer a {
   border-radius: 25px;
 }
 
+#footer-card h3 {
+  margin: 0;
+}
+
+#footer-card p {
+  margin-bottom: 25 px;
+}
+
 #footer-card a {
   color: white;
   text-decoration: none;
@@ -196,4 +183,33 @@ footer a {
   padding: 5px 15px;
   border-radius: 25px;
   margin-top: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  main img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #about-us-wrapper {
+    padding: 25px 30%;
+  }
+
+  #card-wrapper {
+    display: flex;
+  }
+
+  .product-card-wrapper {
+    display: flex;
+  }
+
+  #footer-card {
+    width: 33%;
+    margin: 0 auto;
+  }
 }
