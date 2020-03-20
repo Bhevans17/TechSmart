@@ -1,215 +1,88 @@
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-}
-
-/***** HEADER *****/
-header {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-nav a:nth-child(1) {
-  font-weight: bold;
-  text-decoration: none;
+.btn-outline-primary {
+  border: 1px solid #7510f7;
   color: #7510f7;
-  padding: 5px 15px;
 }
 
-.logo-span {
-  color: #cccccc;
-}
-
-nav a:nth-child(2) {
-  text-decoration: none;
-  color: #7510f7;
-  border: 2px solid #7510f7;
-  padding: 5px 15px;
-  border-radius: 25px;
-  transition: 0.3s;
-}
-
-nav a:nth-child(2):hover {
-  color: white;
+.btn-outline-primary:hover {
+  border: 1px solid #7510f7;
   background-color: #7510f7;
-  transition: 0.3s;
 }
 
-/***** MAIN *****/
-main {
-  text-align: center;
-  padding: 25px 25px;
-  height: 50vh;
+.btn-outline-primary:active {
+  border: 1px solid #7510f7;
+  background-color: #7510f7 !important;
 }
 
-main h1 {
-  font-weight: bold;
-  font-size: 1.5em;
-  margin: 0;
+.btn-primary {
+  border: 1px solid #7510f7;
+  background-color: #7510f7;
+}
+
+.btn-primary:hover {
+  border: 1px solid #7510f7;
+  background-color: white;
+  color: #7510f7;
+}
+
+.btn-primary:active {
+  border: 1px solid #7510f7;
+  background-color: white !important;
+  color: #7510f7;
+}
+
+.navbar-brand {
+  color: #7510f7 !important;
+}
+
+.navbar-brand span {
+  color: grey;
 }
 
 main p {
-  margin: 0;
-  padding-bottom: 25px;
+  color: grey;
 }
-/***** ABOUT US *****/
-#about-us-wrapper {
+
+#banner-one {
   background-color: #7510f7;
-  color: white;
-  padding: 25px;
-  text-align: center;
 }
 
-#about-us-wrapper h2 {
-  margin: 0;
-}
-
-#about-us-wrapper p {
-  margin: 0;
-}
-/***** CARDS *****/
-#card-wrapper {
-  text-align: center;
-}
-
-#card-wrapper i {
-  font-size: 2em;
-}
-
-#card-wrapper h3 {
-  margin: 0;
-}
-
-#card-wrapper h4 {
-  color: #7510f7;
-  margin: 0;
-}
-
-#card-wrapper p {
-  margin: 0;
-}
-
-.card {
-  border: 1px solid lightgrey;
-  padding: 40px;
-}
-
-/***** PRODUCTS *****/
-#products-wrapper {
-  text-align: center;
+#our-products {
   background-color: #7510f7;
-  color: white;
-  padding: 25px;
 }
 
-.product-card {
-  border: 1px solid lightgrey;
-  margin: 20px;
-  padding: 40px 20px;
-  border-radius: 25px;
-  background-color: white;
-  color: black;
+#our-products a {
+  color: #7510f7 !important;
 }
 
-.products-wrapper h2 {
-  padding-bottom: 5px;
+#testimonials img {
+  width: 10%;
 }
 
-.products-wrapper p {
-  padding-bottom: 5px;
-}
-
-.product-card a {
-  color: #7510f7;
-}
-
-/***** TESTIMONIALS *****/
-#testimonials-wrapper {
-  text-align: center;
-  padding: 25px;
-}
-
-#testimonials-wrapper img {
-  width: 100px;
-  height: 100px;
-}
-
-#testimonials-wrapper h3 {
-  margin: 0;
-}
-
-/***** FOOTER *****/
-footer {
-  background-color: #7510f7;
-  text-align: center;
-  padding: 25px;
-  color: white;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-#footer-card {
+.footer-card {
   background-color: #141c3a;
-  color: white;
-  padding: 40px 20px;
-  margin: 20px;
-  border-radius: 25px;
 }
 
-#footer-card h3 {
+#footer {
+  background-color: #7510f7;
+}
+
+#footer ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-#footer-card p {
-  margin-bottom: 25 px;
+#footer ul li {
+  display: inline;
+  padding: 0 15px;
 }
 
-#footer-card a {
-  color: white;
-  text-decoration: none;
-  border: 2px solid #7510f7;
-  padding: 5px 15px;
-  border-radius: 25px;
-  margin-top: 25px;
+#footer ul li a i {
+  font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 1024px) {
-  main {
-    height: 60vh;
-    overflow: hidden;
-  }
-
+@media only screen and (min-width: 120px) {
   main img {
-    width: 100%;
-    height: 100%;
-  }
-
-  #about-us-wrapper {
-    padding: 25px 30%;
-  }
-
-  #card-wrapper {
-    display: flex;
-  }
-
-  .product-card-wrapper {
-    display: flex;
-  }
-
-  #footer-card {
-    width: 33%;
-    margin: 0 auto;
+    width: 50% !important;
   }
 }
