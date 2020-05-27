@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link href="style.css" type="text/css" rel="stylesheet">
-    <title>TechSmart</title>
+    <title>Techsmart | Tech Solutions</title>
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container py-3">
-            <a class="navbar-brand" href="#">TECH<span>SMART</span></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-server"></i>&nbsp;Techsmart</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,170 +25,214 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- Main -->
+    <!-- Main Section -->
     <main>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 py-5 my-5">
-                    <h1>TechSmart</h1>
-                    <p>Your Tech Needs Fullfilled.</p>
-                    <img class="img-fluid" src="./img/example-3.svg" alt="">
+        <div class="container align-items-center my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Techsmart</h1>
+                    <p class="text-secondary">We Do Innovation.</p>
+                    <a href="#" class="btn btn-primary">
+                        Get Started
+                    </a>
+                    <a href="#" class="btn btn-outline-primary">Products</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/example-3.svg" class="img-fluid w-100 h-100" alt="">
                 </div>
             </div>
         </div>
     </main>
-    <!-- Banner One -->
-    <section>
-        <div id="banner-one" class="container-fluid text-white text-center">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>What We're About</h2>
-                        <p>Providing the best technology solutions possible. We strive to exceed expectations while
-                            still remaining on the forefront of innovation.</p>
+    <!-- Products Section -->
+    <div id="products" class="container-fluid bg-light">
+        <div class="container p-5">
+            <div class="row text-center">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="font-weight-bold">Products</h2>
+                    <p class="text-black-50">Cutting edge solutions for the future.</p>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <img src="./img/svg2.svg" class="img-fluid my-5" alt="">
+                            <h3 class="card-title"><i class="fas fa-moon"></i>&nbsp;Moon</h3>
+                            <p class="card-text text-black-50">Help track your products latests updates</p>
+                            <a href="#" class="btn btn-primary">$129.99</a>
+                        </div>
                     </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <img src="./img/svg3.svg" class="img-fluid my-5" alt="">
+                            <h3 class="card-title"><i class="fas fa-sun"></i>&nbsp;Sun</h3>
+                            <p class="card-text text-black-50">Better marketing for your tech. This product is really
+                                cool.</p>
+                            <a href="#" class="btn btn-primary">$349.99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <div class="card border-primary">
+                        <div class=" card-body">
+                            <img src="./img/svg5.svg" class="img-fluid my-5" alt="">
+                            <h3 class="card-title"><i class="fas fa-user-astronaut"></i>&nbsp;Space</h3>
+                            <p class="card-text text-black-50">Free up all the things thats keeping your product from
+                                blossoming.</p>
+                            <a href="#" class="btn btn-primary">$499.99</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mt-5">
+                    <h4 class="font-weight-bold">Need Help With Something?</h4 class="font-weight-bold">
+                    <p class="text-black-50">Contact us with any questions do not hesitate to ask.</p>
+                    <a class="btn btn-outline-primary" href="#">Contact Us</a>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Cards -->
-    <section id="cards">
+    </div>
+
+    <!-- Banner -->
+    <div class="container-fluid m-0 bg-primary py-5 text-white">
         <div class="container">
-            <div class="row text-center my-5">
-                <div class="col-md-4">
-                    <div class="card py-5">
-                        <div class="card-body">
-                            <h2><i class="fas fa-laptop-code"></i></h2>
-                            <h3 class="card-title">The Tech</h3>
-                            <p class="card-text">We only offer the highest quality products. All of the technology we
-                                use is top of line</p>
-                        </div>
+            <h2 class="font-weight-bold">Our Promise.</h2>
+            <p>To provide cutting edge solutions to our customers.Breaking barriers while still maintaining the highest
+                quality products that we can provide.</p>
+        </div>
+    </div>
+    <!-- Info Section #1 -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Get Tips & Tricks On How To Grow Your Business.</h5>
+                <p class="text-black-50">We get up to date data that will help you with any need.</p>
+                <h5>The Fastest Products.</h5>
+                <p class="text-black-50">It's safe to say our products speak for themeselves. Go ahead and test them
+                    out!</p>
+                <h5>Get Live Updates.</h5>
+                <p class="text-black-50">Our information is updated live so you can utilize every second.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="./img/svg5.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Section #2 -->
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="./img/svg1.svg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h4>What Are You Waiting For?</h4>
+                <p class="text-black-50">Lets get the ball rolling help us help you grow your business!</p>
+                <h5>The Cleanest Craftmanship.</h5>
+                <p class="text-black-50">Everything is well planned, built, and tested.</p>
+                <h4>Satisfaction Gurantee.</h4>
+                <p class="text-black-50">If you're not satisfied with out products we offer a full refund just in
+                    contact with us.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+    <div id="banner" class="text-white text-center align-items-center d-flex w-100 flex-column justify-content-center">
+        <h2 class="font-weight-bold">WORLDWIDE COVERAGE</h2>
+        <p>Always have access to our top of the line products no matter where you are in the world.</p>
+    </div>
+    <!-- Cards -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-md-4 my-2">
+                <div class="card">
+                    <img src="./img/card-1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>Our Team</h5>
+                        <p class="card-text text-black-50">Top of the line proffessionals working around the clock to
+                            deliver quality.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card py-5">
-                        <div class="card-body">
-                            <h2><i class="fas fa-paint-brush"></i></h2>
-                            <h3 class="card-title">The Art</h3>
-                            <p class="card-text">Crafted by artisans who combine passion with
-                                creativity to produce works of art.</p>
-                        </div>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="card">
+                    <img src="./img/card-2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>Infrastructure</h5>
+                        <p class="card-text text-black-50">We start with a strong and well built foundation and build
+                            with the best to
+                            ensure quality.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card py-5">
-                        <div class="card-body">
-                            <h2><i class="fas fa-atom"></i></h2>
-                            <h3 class="card-title">The Science</h3>
-                            <p class="card-text">We are encompassing the systematic
-                                study of the universe.</p>
-                        </div>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="card">
+                    <img src="./img/card-4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>Cutting Edge</h5>
+                        <p class="card-text text-black-50">At the forefront of innovation, it's our motto because we
+                            really do
+                            innovation.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Our Products -->
-    <section>
-        <div id="our-products" class="container-fluid text-center py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-white mb-5">
-                        <h2>Our Products</h2>
-                        <p>Top of the line tech.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card py-5">
-                            <h3><i class="fas fa-adjust"></i> Moon</h3>
-                            <p>Mysterious but friendly.</p>
-                            <a href="#">www.moon.com</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card py-5">
-                            <h3><i class="fas fa-sun"></i> Sun</h3>
-                            <p>Bright and warm.</p>
-                            <a href="#">www.sun.com</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card py-5">
-                            <h3><i class="fas fa-user-astronaut"></i> Spaceman</h3>
-                            <p>Exploring the future.</p>
-                            <a href="#">www.spaceman.com</a>
-                        </div>
-                    </div>
-                    <div class="col-md-12 text-white mt-5">
-                        <h2>Need Help With Something?</h2>
-                        <p>Feel free to contact us about any questions. We will be happy to oblige.</p>
+    </div>
+
+
+    <!-- Contact Card -->
+    <div class="container text-center my-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card contact-us-card mx-auto py-5">
+                    <div class="card-body">
+                        <h2>Contact Us</h2>
+                        <p>Interested In Working? Let Us Know!</p>
+                        <a href="#" class="btn btn-primary">Meet Us</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Testimonials 
-    <section id="testimonials">
-        <div class="container text-center">
-            <div class="row py-3">
-                <div class="col-md-12">
-                    <h2>Testimonials</h2>
-                    <p>Meet some of our clients</p>
-                    <img src="./img/person.jpg" class="img-fluid my-2" alt="">
-                    <blockquote>"Really amazing company we will be working with them again."</blockquote>
-                    <p>- Joe Pretson</p>
-                    <p>CEO of Sparks Inc.</p>
-                </div>
-            </div>
-        </div>
-    </section>-->
+    </div>
     <!-- Footer -->
-    <footer>
-        <div id="footer" class="container-fluid text-center p-5">
-            <div class="row">
-                <div class="col-md-4 offset-md-4">
-                    <div class="footer-card text-white py-5">
-                        <h3>Contact Us</h3>
-                        <p>Intrested in work? Let us know!</p>
-                        <a class="btn btn-primary" href="#">Meet Us</a>
-                    </div>
-                </div>
-                <div class="col-md-12 text-white mt-5">
-                    <h4>TechSmart</h4>
-                    <p>We got this!</p>
-                    <ul class="my-5">
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-facebook-f text-white"></i>
-                            </a>
+    <div class="container-fluid footer bg-primary text-white">
+        <div class="container text-center">
+            <div class="row py-5">
+                <div class="col-md-12">
+                    <h2 class="m-0">TechSmart</h2>
+                    <p class="m-0 text-white-50">We Do Innovation.</p>
+                    <ul class="nav justify-content-center my-3">
+                        <li class="nav-item">
+                            <a href="#" class="f-icon text-white m-2"><i class="fab fa-facebook-square"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-twitter text-white"></i>
-                            </a>
+                        <li class="nav-item">
+                            <a href="#" class="f-icon text-white m-2"><i class="fab fa-twitter-square"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-instagram text-white"></i>
-                            </a>
+                        <li class="nav-item">
+                            <a href="#" class="f-icon text-white m-2"><i class="fab fa-instagram"></i></a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-linkedin-in text-white"></i>
-                            </a>
+                        <li class="nav-item">
+                            <a href="#" class="f-icon text-white m-2"><i class="fab fa-linkedin"></i></a>
                         </li>
                     </ul>
-                    <p>Created by TechSmart &copy; 2020 All Rights Reserved.</p>
+                    <p class="m-0 text-white-50">Created By TechSmart &copy; 2020 All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+
     <script src="https://kit.fontawesome.com/b836e57116.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -197,7 +243,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
