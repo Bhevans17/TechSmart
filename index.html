@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin="" />
@@ -46,10 +47,10 @@
                 <div class="col-md-6">
                     <h1>Techsmart</h1>
                     <p class="text-secondary">We Do Innovation.</p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="#products" class="btn btn-primary">
                         Get Started
                     </a>
-                    <a href="#" class="btn btn-outline-primary">Products</a>
+                    <a href="#products" class="btn btn-outline-primary">Products</a>
                 </div>
                 <div class="col-md-6">
                     <img src="./img/main-img.svg" class="img-fluid w-100 h-100" alt="">
@@ -107,15 +108,16 @@
     </div>
     <!-- Banner -->
     <div id="about" class="container-fluid m-0 bg-primary py-5 text-white">
-        <div class="container">
+        <div data-aos="fade-up" class="container">
             <h2 class="font-weight-bold">Our Promise.</h2>
-            <p>To provide cutting edge solutions to our customers.Breaking barriers while still maintaining the highest
+            <p>To provide cutting edge solutions to our customers.Breaking barriers while still
+                maintaining the highest
                 quality products that we can provide.</p>
         </div>
     </div>
     <!-- Info Section #1 -->
     <div class="container my-5">
-        <div class="row align-items-center text-center">
+        <div data-aos="fade-right" class="row align-items-center text-center">
             <div class="col-md-6">
                 <img class="img-fluid" src="./img/ls-1.svg" alt="">
             </div>
@@ -133,7 +135,7 @@
 
     <!-- Info Section #2 -->
     <div class="container my-5 py-5">
-        <div class="row align-items-center text-center">
+        <div data-aos="fade-left" class="row align-items-center text-center">
             <div class="col-md-6">
                 <h5 class="font-weight-bold">Get Tips & Tricks On How To Grow Your Business.</h5>
                 <p class="text-black-50">We get up to date data that will help you with any need.</p>
@@ -178,6 +180,10 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://kit.fontawesome.com/b836e57116.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
